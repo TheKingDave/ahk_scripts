@@ -2,7 +2,7 @@ Pause::Send {Media_Play_Pause}
 
 DetectHiddenWindows, On
 
-// Taken from https://gist.github.com/jcsteh/7ccbc6f7b1b7eb85c1c14ac5e0d65195#file-spotifyglobalkeys-ahk-L27
+; Taken from https://gist.github.com/jcsteh/7ccbc6f7b1b7eb85c1c14ac5e0d65195#file-spotifyglobalkeys-ahk-L27
 ; Get the HWND of the Spotify main window.
 getSpotifyHwnd() {
 	WinGet, spotifyHwnd, ID, ahk_exe spotify.exe
